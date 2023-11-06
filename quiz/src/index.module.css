@@ -1,0 +1,242 @@
+body {
+    background-color: rgb(188, 188, 250); 
+    margin: 0;
+    padding: 0;
+}
+.white-block {
+    display: flex;
+    margin-top: 230px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    max-width: 870px;
+    margin: 0 auto; 
+    border-radius:10px;
+    font-family:sans-serif;
+}
+
+.left-side {
+    flex: 1;
+    padding: 20px;
+}
+
+.left-side img {
+    max-width: 100%;
+    height: auto;
+}
+
+.right-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-content {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid white;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.under-title {
+    color:gray;
+    font-weight:100;
+}
+
+.image{
+  margin-right:130px;
+  margin-top:10px;
+  margin-bottom:5px;
+}
+
+.form-content h1,
+.form-content h3 {
+    margin: 0;
+}
+
+.form-content h1 {
+    font-size: 24px;
+}
+
+.form-content h3 {
+    font-size: 16px;
+}
+
+.form-content {
+    text-align: center;
+    padding: 5px;
+}
+
+.form-input {
+    margin-top: 10px;
+}
+
+.form-input input::placeholder {
+    font-size: 14px;
+}
+
+.title {
+    margin-top: 20px; 
+
+}
+
+
+.next-step-btn {
+    margin-top: 70px;
+    background-color: #1a4b80;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 311px;
+}
+
+.error {
+    padding: 6px 12px;
+    width:400px;
+    background-color: rgb(255, 70, 70);
+    border-radius: 6px;
+    color: white;
+}
+
+.personal-info-input {
+    width: 100%; 
+    max-width: 400px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+.personal-info-input:hover {
+    border-color: #29319c;
+}
+
+.step-circles {
+    margin-left:110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .step-circle {
+    width: 35px;
+    height: 35px;
+    border: 2px solid #000; 
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    background-color: #fff; 
+    font-weight: bold;
+    margin-bottom: 30px; 
+  }
+  
+ 
+  .active {
+    background-color: #007bff; 
+
+  }
+
+  .icon-boxes {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+
+  }
+
+  .box{
+    border-style:solid;
+    border-color:rgb(221, 212, 212);
+    border-radius:10px;
+    border-width:1px;
+    width:130px;
+    height:150px;
+    margin-right:20px;
+    margin-bottom:190px;
+    cursor:pointer;
+  }
+
+  .icons-title {
+    margin-top:50px;
+    margin-left:10px;
+  }
+
+  .pay-month{
+    margin-left:10px;
+    font-size:14px;
+    color:gray;
+  }
+
+  .next-step-btn2 {
+
+    background-color: #1a4b80;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 311px;
+  }
+
+  .payments-clicked-button{
+    background-color: lightblue; 
+    border: 2px solid blue; 
+    cursor: pointer;
+  }
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+    border-style:solid;
+    border-width:1px;
+    border-radius:5px;
+    height:80px;
+    margin-bottom:20px;
+  }
+  
+  .input-container input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .input-container label {
+    font-size: 16px;
+  }
+  
+  .additional-cost {
+    font-size: 14px;
+    color: rgb(3, 5, 155); 
+  }
+  
+
+  .input-container:hover {
+    background-color: #f0f0f0; 
+    transition: background-color 0.3s;
+  }
+
+  .p{
+    position:absolute;
+    margin-left:28px;
+    margin-top:61px;
+    color:gray;
+    border-color:#1a4b80
+  }
+
+
+  
+  
